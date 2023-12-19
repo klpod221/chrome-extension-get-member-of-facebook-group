@@ -1,0 +1,6 @@
+{
+  "extName": {
+    "message": "Get members of Facebook group",
+    "description": "This extension will get members of Facebook group and export to xlsx file"
+  }
+}

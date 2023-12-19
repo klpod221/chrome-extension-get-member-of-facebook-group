@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "Get members of a Facebook group",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "<all_urls>",
+    "*://*/*"
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "19": "icons/19.png",
+      "38": "icons/38.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*"
+      ],
+      "js": [
+        "js/content-script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
