@@ -38,3 +38,14 @@ This is a chrome extension that helps you get the members of a facebook group. Y
   ```
 
 - Add the extension to chrome browser by go to `chrome://extensions/` and click on `Load unpacked` button. Then select the `dist` folder. If you can't see `Load unpacked` button, you need to turn on `Developer mode` first.
+
+## Usage
+
+- Download the extension from [Latest Release](https://github.com/klpod221/chrome-extension-get-member-of-facebook-group/releases/latest)
+- Add the extension to chrome browser by go to `chrome://extensions/` and click on `Load unpacked` button. Then select the `dist` folder. If you can't see `Load unpacked` button, you need to turn on `Developer mode` first.
+- Go to the Facebook group that you want to get the members (make sure you are member of that group and you are in the group page)
+- Click on the extension icon
+- Click the `Get members` button
+- Wait for the extension to scroll down to the end of the group and get all the members
+- Click the `Export Members` button to export the members to a xlsx file
+- Done
